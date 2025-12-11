@@ -63,7 +63,7 @@ export const VideoChatMessage = ({ isPlaying }) => {
           src={brainwaveWhiteSymbol}
           width={26}
           height={26}
-          alt="Brainwave"
+          alt="Techsrijan"
         />
       </div>
       <div className="tagline absolute right-2.5 bottom-1 text-[0.625rem] text-n-3 uppercase">

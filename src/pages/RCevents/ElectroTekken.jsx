@@ -6,13 +6,15 @@ import EventRules from '../../components/EventRules';
 import EventRegistrationButton from '../../components/EventRegistrationButton';
 import EventLeaderboardButton from '../../components/EventLeaderboardButton';
 import { Link } from 'react-router-dom';
+import poster from '../../assets/RC_poster/tekk.jpg';
+
 
 const ElectroTekken = () => {
   // Single Event Data - Customize this for LA MIRA event
   const event = {
-    title: "LA MIRA",
-    category: "Adventure",
-    poster: "/path/to/lamira-poster.jpg", // Replace with your actual poster path
+    title: "Electro Tekken",
+    category: "Fighting",
+    poster: poster, // Replace with your actual poster path
     description: "The ultimate treasure hunt experience across the campus. Solve puzzles, crack codes, and discover hidden clues to find the treasure. Test your problem-solving skills and teamwork in this thrilling adventure that will take you through various locations across the campus.",
     rules: [
       "Team size: 3 members (1 leader + 2 members)",
@@ -24,7 +26,7 @@ const ElectroTekken = () => {
       "Teams will be disqualified for any unfair practices",
       "Decision of judges will be final"
     ],
-    googleFormLink: "https://forms.google.com/your-form-link",
+    googleFormLink: "https://forms.gle/8gjD57Ncq9YYUQsDA",
     leaderboardLink: "https://mits.ac.in/leaderboard/lamira",
     eventDate: "December 12, 2025",
     eventTime: "10:00 AM - 2:00 PM",

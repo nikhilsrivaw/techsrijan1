@@ -152,7 +152,7 @@ const Header = () => {
               >
                 Events
               </button>
-              <Link
+              {/* <Link
                 to="/leaderboard"
                 className={`px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300 ${
                   location.pathname === "/leaderboard"
@@ -160,8 +160,8 @@ const Header = () => {
                     : "text-white/70 hover:text-white hover:bg-white/10"
                 }`}
               >
-                {/* Leaderboard */}
-              </Link>
+                Leaderboard
+              </Link> */}
               <Link
                 to="/glimpse"
                 className={`px-6 py-2 rounded-full font-semibold text-sm uppercase tracking-wide transition-all duration-300 ${

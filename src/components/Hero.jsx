@@ -31,8 +31,12 @@ const Hero = () => {
               options={{
                 strings: [
                   "Edm night",
-                  "la mira",
-                  "",
+                  "Gaming Arena",
+                  "Robotics Expo",
+                  "Coding Marathon",
+                  "AI Showcase",
+                  "Innovation Hub",
+                  "Workshops & Talks",
                   "many more ...",
                  
                 ],

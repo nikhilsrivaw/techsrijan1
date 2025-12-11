@@ -6,25 +6,23 @@ import EventRules from '../../components/EventRules';
 import EventRegistrationButton from '../../components/EventRegistrationButton';
 import EventLeaderboardButton from '../../components/EventLeaderboardButton';
 import { Link } from 'react-router-dom';
+import poster from '../../assets/RC_poster/bomb.jpg';
 
 const BombDiffusion = () => {
   // Single Event Data - Customize this for Bomb Diffusion
   const event = {
     title: "Bomb Diffusion",
     category: "Adventure",
-    poster: "/path/to/lamira-poster.jpg", // Replace with your actual poster path
-    description: "The ultimate treasure hunt experience across the campus. Solve puzzles, crack codes, and discover hidden clues to find the treasure. Test your problem-solving skills and teamwork in this thrilling adventure that will take you through various locations across the campus.",
+    poster: poster, // Replace with your actual poster path
+    description: "Step into the arena of Ultimate Defusal Showdown. Participants will face scenarios that test their technical skills. presence of mind, and problem-solving ability under pressure. This challenge pushes basic circuitry and composure to the limit. Do you have the focus and clarity to take on the role of an explosive specialist and succeed?",
     rules: [
-      "Team size: 3 members (1 leader + 2 members)",
-      "All team members must be from the same institution",
-      "Registration fee: ₹100 per team",
-      "Participants must carry valid college ID",
-      "Use of mobile phones is restricted during the event",
-      "Follow all instructions given by event coordinators",
-      "Teams will be disqualified for any unfair practices",
-      "Decision of judges will be final"
+      "Each team is limited to a maximum of 3 members.",
+      "The competition consists of 2 rounds.",
+      "Round 1:",
+      "1. This round will be a quiz focusing on basic circuitry.","2. There will be 15 questions in total.","3. The top 10 teams with the highest scores will qualify for the second round.",
+
     ],
-    googleFormLink: "https://forms.google.com/your-form-link",
+    googleFormLink: "https://forms.gle/ZFuAf8FaBUkm8K9x7",
     leaderboardLink: "https://mits.ac.in/leaderboard/lamira",
     eventDate: "December 12, 2025",
     eventTime: "10:00 AM - 2:00 PM",
